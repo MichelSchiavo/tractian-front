@@ -1,0 +1,35 @@
+.header {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background: var(--gray-500);
+  box-shadow: 0 2px 12px var(--gray-300);
+
+  img {
+    height: 1.6rem;
+    cursor: pointer;
+  }
+
+  main {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      height: 2rem;
+      background: transparent;
+      border: 0;
+      color: var(--gray-100);
+      transition: color 0.2s;
+
+      &:hover {
+        color: var(--gray-200);
+      }
+
+    }
+  }  
+}

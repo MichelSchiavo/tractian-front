@@ -1,0 +1,31 @@
+.units-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 12rem auto 0;
+  gap: 1rem;
+
+  div {
+    height: 4rem;
+    flex: 1 0 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;   
+    border-radius: 4px;
+    box-shadow: 0 2px 12px var(--gray-200);
+
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+
+    p {
+      flex: 1 0 45%;
+      font-weight: 700;
+
+      span {
+        font-weight: 500;
+        color: var(--gray-300);
+      }
+    }
+  }
+}

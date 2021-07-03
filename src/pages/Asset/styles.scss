@@ -1,0 +1,35 @@
+.asset-main {
+  width: 45rem;
+  padding: 1rem;
+  margin: 8rem auto 0;
+  
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 2px 12px var(--gray-200);
+
+  img {
+    height: 22rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftSide {
+      div {
+        
+        p {
+          padding: 0.2rem 0;
+
+          select {
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
