@@ -73,7 +73,7 @@ export function Asset() {
     api.get(`assets/${params.id}`).then(({data}) => {
       setAsset(data);
     });
-  }, []);
+  });
 
   useEffect(() => {
     api.get(`companies`).then(({data}) => {
