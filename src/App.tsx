@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home } from './pages/Home';
 
 import './global.scss';
-import { Assets } from './pages/Assets';
 import { Asset } from './pages/Asset';
 import { Companies } from './pages/Companies';
 import { Units } from './pages/Units';
